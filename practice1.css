@@ -1,0 +1,94 @@
+body{
+	background-color: #d9ecf2;
+}
+
+.space{
+	height: 400px;
+	width: 40%;
+
+	background: radial-gradient(circle, red 30%, purple 20%, blue 15%);
+
+	padding: 40px 20px;
+	border: 2px;
+	margin: 15px 20px;
+}
+
+.container{
+	background-color: #fff;
+	margin: 10px;
+	height: 300px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline ;
+}
+
+.gridContainer{
+	background-color: #fff;
+	margin: 10px;
+	height: 300px;
+
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto atuo;
+}
+
+.item{
+	width: 5vw;
+	height: 40px;
+	margin: 10px;
+	line-height: 50px;
+	color: white;
+
+	background: rgb(55, 0, 0);
+}
+
+.item2{
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}
+
+.button{
+	margin: 10px 10px;
+	padding: 10px 15px;
+	border: none;
+	text-decoration: none;
+	color: whitesmoke;
+	background: rgb(56, 5, 98);
+
+	transition: background 1s ease-in-out .3s;
+	-webkit-transition: background, padding 500ms ease;
+	-moz-transition: background, padding 500ms ease;
+	-o-transition: background, padding 500ms ease;
+}
+
+.button:hover{
+	background-color: firebrick;
+	padding: 20px 30px;
+}
+
+#animation{
+/*	animation-name: newAnim;
+	animation-duration:  4s;
+	animation-timing-function: linear;
+	animation-delay:  0;
+	animation-iteration-count: 2;
+	animation-direction: alternate-reverse;
+	
+	animation: newAnim 4s linear 0s 2 alternate-reverse;
+}
+
+@keyframes newAnim{
+	0%{
+		background: #d9ecf2; transform: 0px;
+	}
+	50%{
+		background: yellowgreenel;
+	}
+	100%{
+		background: darkred;
+	}
+}*/

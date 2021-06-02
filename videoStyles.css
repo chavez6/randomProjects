@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  font-family: sans-serif, Arial, "Helvetica Neue", Helvetica;
+  line-height: 1.6;
+  background: rgb(181, 226, 228);
+}
+
+#center_landing{
+  background: rgb(181, 228, 206);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+#center_landing input{
+  border: rgb(181, 226, 228) 1px solid;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#center_landing button{
+  border: rgb(181, 226, 228) 1px solid;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+#center_landing button:hover{
+  background: rgb(181, 200, 228);
+}
+
+#center_landing p{
+  text-align: center;
+}
+
+footer{
+  padding: 10px 20px;
+}
+
