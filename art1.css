@@ -1,0 +1,56 @@
+/*#343f56 dark blue
+#f54748 dark orange
+#fb9300 dark yellow
+#f5e6ca off tan*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.canvas{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f5e6ca;
+	width: 100%;
+	height: 100vh;
+}
+
+.circle{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 80vmin;
+	height: 80vmin;
+	border-radius: 50%;
+	background: #343f56;
+}
+
+.pot{
+	position: absolute;
+	border-bottom:  10vmin solid #f54748;
+	border-left: 10vmin solid transparent;
+	border-right: 10vmin solid transparent;
+	height: 0;
+	width: 10vmin;
+	bottom: 30vmin;
+	border-radius: 100%;
+}
+
+.rotate {
+  animation: rotation 2s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
